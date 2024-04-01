@@ -12,7 +12,7 @@
 
 ### User Stories
 - As a user, I want to I want to easily upload ID images via mobile or web for verification, so that I can complete the process conveniently.
-- As a user,  I need to store and access my verified identification documents on mobile and web platforms for future use, so that I can conveniently retrieve them when required
+- As a user, I need to store and access my verified identification documents on mobile and web platforms for future use, so that I can conveniently retrieve them when required
 - As a user, I need guidance on the required documents if I'm applying for any general document, so that I can ensure I have the necessary paperwork ready for processing
 <br><br>
 <!-- Tech stack -->
