@@ -11,9 +11,9 @@
 > Coffee Express aims to streamline the coffee-ordering process by providing a user-friendly platform for customers to place orders and pick up their coffee at their convenience. We believe in enhancing the coffee experience by saving time and ensuring customer satisfaction.
 
 ### User Stories
-- As a user, I want to browse the menu, so I can find my favorite coffee drinks.
-- As a user, I want to customize my order, so I can add or remove ingredients according to my preferences.
-- As a user, I want to pay for my order through the app, so I can avoid waiting in line at the store.
+- As a user, I want to I want to easily upload ID images via mobile or web for verification, so that I can complete the process conveniently.
+- As a user, I want real-time updates on my ID verification status on both mobile and web platforms, so that I can stay informed about the progress.
+- As a user,  I want AI integration for accurate and fast processing of my ID documents, so that verification can be expedited and error-free.
 
 <br><br>
 <!-- Tech stack -->
