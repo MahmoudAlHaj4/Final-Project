@@ -93,3 +93,38 @@ export const Form = styled.form`
  border-color: #ffffff;
  `;
  
+ export const Anchor = styled.a`
+ color: #333;
+ font-size: 14px;
+ text-decoration: none;
+ margin: 15px 0;
+ `;
+ export const OverlayContainer = styled.div`
+position: absolute;
+top: 0;
+left: 50%;
+width: 50%;
+height: 100%;
+overflow: hidden;
+transition: transform 0.6s ease-in-out;
+z-index: 100;
+${props =>
+  props.signinIn !== true ? `transform: translateX(-100%);` : null}
+`;
+
+export const Overlay = styled.div`
+background: #ff416c;
+background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+background: linear-gradient(to right, #874CCC, #874CCC);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0 0;
+color: #ffffff;
+position: relative;
+left: -100%;
+height: 100%;
+width: 200%;
+transform: translateX(0);
+transition: transform 0.6s ease-in-out;
+${props => (props.signinIn !== true ? `transform: translateX(50%);` : null)}
+`;
