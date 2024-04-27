@@ -35,7 +35,7 @@ const Authentication  =  ()=>{
                     <Components.Paragraph>
                         To keep connected with us please login with your personal info
                     </Components.Paragraph>
-                    <Components.GhostButton>
+                    <Components.GhostButton onClick={() => toggle(true)}>
                         Sign In
                     </Components.GhostButton>
                     </Components.LeftOverlayPanel>
