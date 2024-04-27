@@ -27,8 +27,8 @@ const Authentication  =  ()=>{
                  </Components.Form>
             </Components.SignInContainer>
 
-            <Components.OverlayContainer >
-                <Components.Overlay >
+            <Components.OverlayContainer signinIn={signIn}>
+                <Components.Overlay signinIn={signIn}>
 
                 <Components.LeftOverlayPanel>
                     <Components.Title>Welcome Back!</Components.Title>
