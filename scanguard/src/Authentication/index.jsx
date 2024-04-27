@@ -3,6 +3,7 @@ import { useState } from "react";
 import * as Components from "./style"
 
 const Authentication  =  ()=>{
+    const [signIn, toggle] = useState(true);
     return(
         <Components.Wrapper>
         <Components.Container>
