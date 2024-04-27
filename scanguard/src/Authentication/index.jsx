@@ -45,7 +45,7 @@ const Authentication  =  ()=>{
                       <Components.Paragraph>
                           Enter Your personal details and start journey with us
                       </Components.Paragraph>
-                          <Components.GhostButton >
+                          <Components.GhostButton onClick={() => toggle(false)}>
                               Sigin Up
                           </Components.GhostButton> 
                     </Components.RightOverlayPanel>
