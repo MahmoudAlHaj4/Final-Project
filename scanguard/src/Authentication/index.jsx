@@ -40,7 +40,7 @@ const Authentication  =  ()=>{
                     </Components.GhostButton>
                     </Components.LeftOverlayPanel>
                     
-                    <Components.RightOverlayPanel>
+                    <Components.RightOverlayPanel signinIn={signIn}>
                       <Components.Title>Hello</Components.Title>
                       <Components.Paragraph>
                           Enter Your personal details and start journey with us
