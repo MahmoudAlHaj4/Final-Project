@@ -128,3 +128,29 @@ transform: translateX(0);
 transition: transform 0.6s ease-in-out;
 ${props => (props.signinIn !== true ? `transform: translateX(50%);` : null)}
 `;
+
+ export const OverlayPanel = styled.div`
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 0 40px;
+     text-align: center;
+     top: 0;
+     height: 100%;
+     width: 50%;
+     transform: translateX(0);
+     transition: transform 0.6s ease-in-out;
+ `;
+
+ export const LeftOverlayPanel = styled(OverlayPanel)`
+   transform: translateX(-20%);
+   ${props => props.signinIn !== true ? `transform: translateX(0);` : null}
+ `;
+
+ export const RightOverlayPanel = styled(OverlayPanel)`
+     right: 0;
+     transform: translateX(0);
+     ${props => props.signinIn !== true ? `transform: translateX(20%);` : null}
+ `;
