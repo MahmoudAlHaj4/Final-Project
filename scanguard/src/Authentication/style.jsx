@@ -44,3 +44,14 @@ width: 50%;
 z-index: 2;
 ${props => (props.signinIn !== true ? `transform: translateX(100%);` : null)}
 `;
+
+export const Form = styled.form`
+ background-color: #ffffff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding: 0 50px;
+ height: 100%;
+ text-align: center;
+ `;
