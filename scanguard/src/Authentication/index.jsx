@@ -39,7 +39,7 @@ const Authentication  =  ()=>{
                         Sign In
                     </Components.GhostButton>
                     </Components.LeftOverlayPanel>
-                    
+
                     <Components.RightOverlayPanel signinIn={signIn}>
                       <Components.Title>Hello</Components.Title>
                       <Components.Paragraph>
