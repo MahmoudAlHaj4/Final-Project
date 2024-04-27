@@ -22,6 +22,23 @@ const Authentication  =  ()=>{
                      <Components.Button>Sigin In</Components.Button>
                  </Components.Form>
             </Components.SignInContainer>
+
+            <Components.OverlayContainer >
+                <Components.Overlay >
+
+                <Components.LeftOverlayPanel>
+                    <Components.Title>Welcome Back!</Components.Title>
+                    <Components.Paragraph>
+                        To keep connected with us please login with your personal info
+                    </Components.Paragraph>
+                    <Components.GhostButton>
+                        Sign In
+                    </Components.GhostButton>
+                    </Components.LeftOverlayPanel>
+                    
+                </Components.Overlay>
+            </Components.OverlayContainer>
+
         </Components.Container>
         
     )
