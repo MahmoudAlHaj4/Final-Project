@@ -31,6 +31,41 @@ const Home = ()=>{
             <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked />
             <label for="tab1" class="tabs__label">Overview</label>
             <div class="tabs__content flex ">
+
+                <div className="overview-container flex ">
+                    <div className="description flex column ">
+                        <h1>Verify Any ID with ScanGuard</h1>
+                        <p>
+                            ScanGuard Document Reader is designed 
+                            for Identity verification services that specialize 
+                            in reading and digital verification of passports,
+                            ID cards. driver's licenses, visas, and other ID
+                            documents
+                        </p>
+                    </div>
+                    <div className="image">
+                        <img src={image} alt="" />
+                    </div>
+                </div>
+
+                <div className="overview-container flex ">
+                    <div className="image-2">
+                        <img src={image2} alt="" />
+                    </div>
+                    <div className="description flex column ">
+                        <h1>Simple Document Preparation</h1>
+                        <p>
+                        Simplify the process of getting your ID 
+                        documents  ready with our easy-to-use 
+                        system, ensuring everything is in order and our platform stands out with seamless
+                        integration with trusted partners like Libanpost
+                        and OMT.we ensure a seamless experience
+                        from document submission to processing and
+                        final approval
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
             <input type="radio" class="tabs__radio" name="tabs-example" id="tab2" />
