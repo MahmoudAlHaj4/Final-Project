@@ -7,7 +7,7 @@ const Authentication  =  ()=>{
     return(
         <Components.Wrapper>
         <Components.Container>
-            <Components.SignUpContainer>
+            <Components.SignUpContainer signinIn={signIn}>
                 <Components.Form>
                     <Components.Title>Create Account</Components.Title>
                     <Components.Input type='text' placeholder='Name' />
