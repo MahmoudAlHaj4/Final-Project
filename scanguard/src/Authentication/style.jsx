@@ -69,3 +69,27 @@ export const Form = styled.form`
  margin: 8px 0;
  width: 100%;
  `;
+
+ export const Button = styled.button`
+    border-radius: 20px;
+    border: 1px solid #874CCC;
+    background-color: #874CCC;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    &:active{
+        transform: scale(0.95);
+    }
+    &:focus {
+        outline: none;
+    }
+ `;
+ export const GhostButton = styled(Button)`
+ background-color: transparent;
+ border-color: #ffffff;
+ `;
+ 
