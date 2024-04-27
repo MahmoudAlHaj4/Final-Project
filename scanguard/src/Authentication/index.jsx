@@ -17,7 +17,7 @@ const Authentication  =  ()=>{
                 </Components.Form>
             </Components.SignUpContainer>
 
-            <Components.SignInContainer >
+            <Components.SignInContainer signinIn={signIn}>
                  <Components.Form>
                      <Components.Title>Sign In</Components.Title>
                      <Components.Input type='email' placeholder='Email' />
