@@ -1,5 +1,9 @@
 import "./home.css"
 import { useNavigate } from "react-router-dom";
+import image from '../assets/img.webp'
+import image2 from '../assets/omt.jpg'
+import image3 from '../assets/ff.jpg'
+
 const Home = ()=>{
     const navigate = useNavigate()
     return <div className="home-page">
