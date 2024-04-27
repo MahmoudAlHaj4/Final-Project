@@ -9,7 +9,7 @@ const Authentication  =  ()=>{
         <Components.Container>
             <Components.SignUpContainer signinIn={signIn}>
                 <Components.Form>
-                    <Components.Title>Create Account</Components.Title>
+                    <Components.Title>Sign Up</Components.Title>
                     <Components.Input type='text' placeholder='Name' />
                     <Components.Input type='email' placeholder='Email' />
                     <Components.Input type='password' placeholder='Password' />
