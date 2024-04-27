@@ -1,3 +1,6 @@
+import React from "react";
+import { useState } from "react";
+import * as Components from "./style"
 
 const Authentication  =  ()=>{
     return(
