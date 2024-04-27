@@ -12,6 +12,16 @@ const Authentication  =  ()=>{
                     <Components.Button>Sign Up</Components.Button>
                 </Components.Form>
             </Components.SignUpContainer>
+
+            <Components.SignInContainer >
+                 <Components.Form>
+                     <Components.Title>Sign In</Components.Title>
+                     <Components.Input type='email' placeholder='Email' />
+                     <Components.Input type='password' placeholder='Password' />
+                     <Components.Anchor href='#'>Forgot your password?</Components.Anchor>
+                     <Components.Button>Sigin In</Components.Button>
+                 </Components.Form>
+            </Components.SignInContainer>
         </Components.Container>
         
     )
