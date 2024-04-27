@@ -17,7 +17,7 @@ const Home = ()=>{
                 <button onClick={()=>navigate('/auth')}>SignUp</button>
             </div>
         </div>
-        <div className="hero"></div>
+        <div className="hero-section"></div>
     </div>
 }
 
