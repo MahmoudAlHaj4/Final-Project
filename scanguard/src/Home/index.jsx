@@ -17,7 +17,16 @@ const Home = ()=>{
                 <button onClick={()=>navigate('/auth')}>SignUp</button>
             </div>
         </div>
-        <div className="hero-section"></div>
+
+        <div className="hero-section flex center column">
+            <div className="title">
+                <h2>Validate and prepare all your identification documents from home</h2>
+            </div>
+            <div className="btn">
+                <button>Get Started</button>
+            </div>
+        </div>
+           
     </div>
 }
 
