@@ -10,4 +10,10 @@ width: 678px;
 max-width: 100%;
 min-height: 400px;
 `;
+export const Wrapper = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
