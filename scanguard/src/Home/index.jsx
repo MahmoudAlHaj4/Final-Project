@@ -51,6 +51,20 @@ const Home = ()=>{
                         <img src={image} alt="" />
                     </div>
                 </div>
+                <div className="overview-container flex ">
+                    <div className="image">
+                        <img src={image3} alt="" />
+                    </div>
+                    <div className="description flex column ">
+                        <h1>Fraud-free identity verification</h1>
+                        <p>
+                        Protect your identity from scams and unauthorized 
+                        use with our easy-to-use verification system,
+                        keeping your personal information secure online
+                        </p>
+                    </div>
+                    
+                </div>
 
                 <div className="overview-container flex ">
                     <div className="image-2">
