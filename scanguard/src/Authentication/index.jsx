@@ -1,7 +1,7 @@
 
 const Authentication  =  ()=>{
     return(
-     
+        <Components.Wrapper>
         <Components.Container>
             <Components.SignUpContainer>
                 <Components.Form>
@@ -50,7 +50,7 @@ const Authentication  =  ()=>{
             </Components.OverlayContainer>
 
         </Components.Container>
-        
+        </Components.Wrapper>
     )
 }
 
